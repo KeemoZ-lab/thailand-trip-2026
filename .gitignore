@@ -1,0 +1,15 @@
+.DS_Store
+._*
+__MACOSX/
+.env
+.env.*
+.dev.vars
+node_modules/
+dist/
+.vercel/
+.wrangler/
+.local-preview-data.json
+source-files/
+private/
+source-facts.json
+reports/private/
