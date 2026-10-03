@@ -790,14 +790,15 @@ async function loadSharedState() {
       ["确认Jasmine 59 Hotel：11月6日至9日，共3晚，并填写订单号", "Jasmine 59 Hotel已预订：11月5日至9日，共4晚；离店付款"],
       ["购买并核对11月6日CNX→BKK航班；TG111仅为当前候选", "购买并核对11月5日CNX→曼谷航班；补充航班号、起降时刻和实际到达机场"],
       ["预约11月3日素贴山Grab Rent或请BED代订包时车", "预约11月3日素贴山Grab Rent或请彩鸿酒店代订包时车"],
-      ["书面预约11月5日BED→植物园→蒙占山→Onsen多站包车", "书面预约11月4日彩鸿酒店→植物园→蒙占山→Onsen多站包车"],
-      ["书面预约11月5日彩鸿酒店→植物园→蒙占山→Onsen多站包车", "书面预约11月4日彩鸿酒店→植物园→蒙占山→Onsen多站包车"],
+      ["书面预约11月5日BED→植物园→蒙占山→Onsen多站包车", "11月4日全天多站包车已预订：彩鸿酒店出发，植物园＋绵羊牧场，最后送到Onsen"],
+      ["书面预约11月5日彩鸿酒店→植物园→蒙占山→Onsen多站包车", "11月4日全天多站包车已预订：彩鸿酒店出发，植物园＋绵羊牧场，最后送到Onsen"],
+      ["书面预约11月4日彩鸿酒店→植物园→蒙占山→Onsen多站包车", "11月4日全天多站包车已预订：彩鸿酒店出发，植物园＋绵羊牧场，最后送到Onsen"],
       ["至少提前1天预约11月6日Onsen→CNX收费送机车", "出票后按航班时间预约11月5日Onsen→CNX收费送机车"]
     ]);
     const changed = state.todos.filter((todo) => renamedDefaults.has(todo.text));
     changed.forEach((todo) => {
       todo.text = renamedDefaults.get(todo.text);
-      if (["todo-bed-booking", "todo-onsen-booking", "todo-jasmine-booking"].includes(todo.id)) todo.completed = true;
+      if (["todo-bed-booking", "todo-onsen-booking", "todo-jasmine-booking", "todo-mon-cham-charter"].includes(todo.id)) todo.completed = true;
     });
     await Promise.all(changed.map((todo) => todoAdapter.applyChange("todos", todo, "upsert")));
   }

@@ -144,8 +144,8 @@
         "note": "同一司机按小时等待并跑多站，适合帕拉特寺与双龙寺。"
       },
       {
-        "name": "蒙占山多站包车",
-        "note": "11月4日彩鸿酒店出发，经植物园、蒙占山至Onsen；提前书面确认路线、人数、行李、等待、油费、停车和超时费，费用以最终报价为准。"
+        "name": "11月4日全天多站包车｜已预订",
+        "note": "早上从彩鸿酒店出发，允许途中多站停留，最后送到Onsen at Moncham。计划植物园、Maekee Sheep House绵羊牧场与蒙占观景；具体出发时间、园内交通、停车和超时费用按已订订单与司机确认。"
       },
       {
         "name": "Onsen酒店付费送机",
@@ -222,62 +222,75 @@
       "id": "day-02-nimman-cmu",
       "day": 2,
       "date": "2026-11-02",
-      "title": "宁曼路慢逛・清迈大学景色",
+      "title": "瓦洛洛市场・塔佩门・清迈大学・宁曼",
       "locations": [
         "宁曼彩鸿酒店",
-        "MAYA",
+        "瓦洛洛市场",
+        "塔佩门与清迈古城",
         "One Nimman",
         "清迈大学"
       ],
       "schedule": [
         {
           "id": "item-02-late-start",
-          "time": "09:30–10:30",
-          "text": "睡到自然醒，在酒店或宁曼附近吃早餐后慢慢出发；是否含早以订单为准。",
+          "time": "09:00–09:30",
+          "text": "酒店早餐后出发；当天时间均为参考，可按体力调整。",
           "type": "rest",
           "placeId": "place-bed-changkian"
         },
         {
-          "id": "item-02-maya-one-nimman",
-          "time": "10:30–13:30",
-          "text": "MAYA与One Nimman慢逛，午餐和咖啡都放在宁曼路解决。",
+          "id": "item-02-warorot",
+          "time": "10:00–11:15",
+          "text": "Grab前往Warorot瓦洛洛市场，逛当地食品与伴手礼摊位；旁边花市只顺路短看，不必买齐所有东西。",
           "type": "attraction",
-          "placeIds": [
-            "place-maya",
-            "place-one-nimman"
-          ]
+          "placeId": "place-warorot"
+        },
+        {
+          "id": "item-02-old-city",
+          "time": "11:30–13:00",
+          "text": "短程Grab或步行前往塔佩门，拍白天城门后在古城街巷吃午餐。契迪龙寺是可选停留，想去可用约45–60分钟替换部分市场或午餐闲逛时间。",
+          "type": "attraction",
+          "placeId": "place-tha-phae-gate"
         },
         {
           "id": "item-02-rest",
-          "time": "14:00–16:00",
-          "text": "回彩鸿酒店午休；体力好也可以留在宁曼做按摩。",
+          "time": "13:30–15:30",
+          "text": "回彩鸿酒店午休，保留休息时间。",
           "type": "rest",
           "placeId": "place-bed-changkian"
         },
         {
           "id": "item-02-ang-kaew",
-          "time": "16:30–18:00",
+          "time": "16:00–17:15",
           "text": "天气晴朗时去清迈大学Ang Kaew水库散步，看素贴山傍晚景色。",
           "type": "walk",
           "placeId": "place-ang-kaew"
         },
         {
+          "id": "item-02-nimman-evening",
+          "time": "17:30–19:30",
+          "text": "宁曼路、One Nimman慢逛和晚餐；MAYA可短停，购物与咖啡不设打卡数量。",
+          "type": "attraction",
+          "placeIds": [
+            "place-one-nimman",
+            "place-maya"
+          ]
+        },
+        {
           "id": "item-02-options",
-          "time": "附近备选",
-          "text": "可按兴趣二选一：留在宁曼/清迈大学一带（Wat Suan Dok、Think Park），或改去Baan Kang Wat＋Wat Umong；不必全部完成。",
+          "time": "古城备选",
+          "text": "契迪龙寺与古城街巷可替换上午部分安排；这一天是周一，Baan Kang Wat通常休息，放在11月3日备选。",
           "type": "other",
           "placeIds": [
-            "place-wat-suan-dok",
-            "place-cmu",
-            "place-think-park",
-            "place-baan-kang-wat",
-            "place-wat-umong"
+            "place-wat-chedi-luang",
+            "place-three-kings"
           ]
         }
       ],
       "costReferences": [],
       "notes": [
-        "这一天以恢复体力为主；宁曼购物与咖啡不设打卡数量。"
+        "市场和塔佩门放在同一上午，下午回到宁曼与清迈大学一带；时间包含市区交通缓冲。",
+        "如果第一晚已看过塔佩门，今天可缩短城门停留；不必将所有古城寺庙都走完。"
       ]
     },
     {
@@ -329,17 +342,18 @@
         {
           "id": "item-03-rest",
           "time": "15:00以后",
-          "text": "回酒店休息或按摩；若仍有体力，傍晚可去古城只看契迪龙寺及附近街巷。晚上整理次日上山行李。",
+          "text": "回酒店休息或按摩；若想看文艺小店，可选15:30–17:00去Baan Kang Wat艺术村，Wat Umong只作为替代选项。晚上整理次日上山行李。",
           "type": "rest",
           "placeIds": [
             "place-bed-changkian",
-            "place-wat-chedi-luang"
+            "place-baan-kang-wat",
+            "place-wat-umong"
           ]
         },
         {
           "id": "item-03-options",
           "time": "路线备选",
-          "text": "天气好且还有体力，可让司机在素贴山观景点短停；不要临时加清迈动物园等耗时项目。",
+          "text": "帕拉特寺位于去双龙寺的同一条山路，寺庙间按15–25分钟车程留时间；11月3日的包时车需另约，11月4日已订车辆不覆盖今天。",
           "type": "note"
         }
       ],
@@ -359,10 +373,11 @@
       "id": "day-04-mae-rim-mon-cham",
       "day": 4,
       "date": "2026-11-04",
-      "title": "植物园・蒙占山・入住Onsen",
+      "title": "已订全天包车・植物园・绵羊牧场・蒙占山",
       "locations": [
         "宁曼彩鸿酒店",
         "Queen Sirikit植物园",
+        "Maekee Sheep House绵羊牧场",
         "蒙占山",
         "Onsen at Moncham"
       ],
@@ -370,14 +385,14 @@
         {
           "id": "item-04-checkout",
           "time": "08:30–09:00",
-          "text": "早餐后从彩鸿酒店退房，携全部行李与提前预约的多站包车司机会合。",
+          "text": "早餐后从彩鸿酒店退房，带全部行李与已预订的全天包车司机会合；建议09:00左右出发，最终时间与司机确认。",
           "type": "check-out",
           "placeId": "place-bed-changkian"
         },
         {
           "id": "item-04-botanic-garden",
-          "time": "10:00–12:00",
-          "text": "Queen Sirikit Botanic Garden：优先玻璃温室与Canopy Walk；不必走完整个园区。",
+          "time": "10:00–11:30",
+          "text": "Queen Sirikit Botanic Garden：重点看Canopy Walk树冠步道与玻璃温室。园区较大，请司机协助安排点间交通，入园车辆或园内接驳费用另核对。",
           "type": "attraction",
           "placeId": "place-queen-sirikit-garden",
           "ticketIds": [
@@ -386,33 +401,39 @@
         },
         {
           "id": "item-04-lunch",
-          "time": "12:15–13:30",
+          "time": "12:00–13:00",
           "text": "请司机在Pong Yaeng或Mae Rim选择顺路、停车方便的餐厅。",
           "type": "restaurant",
           "placeId": "place-pong-yaeng"
         },
         {
+          "id": "item-04-sheep-house",
+          "time": "13:30–14:30（参考）",
+          "text": "Maekee Sheep House（บ้านแกะแม่ขิ）绵羊牧场：喂羊、拍照、咖啡，留约1小时。请司机按完整店名导航，它是独立景点，不在Onsen酒店内；门票与喂食费用以现场为准。",
+          "type": "attraction",
+          "placeId": "place-maekee-sheep-house"
+        },
+        {
           "id": "item-04-mon-cham",
-          "time": "14:00–15:00",
-          "text": "蒙占山主观景区、花田或山景咖啡三选一；景色好就多停，景色一般就提前去酒店。",
+          "time": "14:45–15:30（参考）",
+          "text": "蒙占山观景区短停，看山景与白云。若Ying Yong花园当天开放、花况好且接驳方便，可用花园替换这段观景，具体先后顺序由司机按道路调整。",
           "type": "attraction",
           "placeId": "place-mon-cham"
         },
         {
           "id": "item-04-onsen",
-          "time": "15:30以后",
+          "time": "15:30–16:00左右",
           "text": "入住已预订的Onsen at Moncham Grand Mountain View，泡温泉、看山景；晚餐内容按酒店订单确认。",
           "type": "check-in",
           "placeId": "place-onsen-moncham"
         },
         {
           "id": "item-04-options",
-          "time": "沿途备选",
-          "text": "可选但不建议全部加入：Mae Sa瀑布、山景咖啡、Pong Yaeng周边观景点；加停靠需事先与司机确认。",
+          "time": "花园替代选项｜待核对花况",
+          "text": "Ying Yong Flower Garden（ยิ่งยงสวนดอกไม้）有季节性花田和山景，可替换普通蒙占观景停留。出发前请司机核对当天开放和近期实拍；上坡可能需另乘园区车辆，连同等候预留60–90分钟。选择花园时，Onsen抵达可顺延到16:00–16:30，花况一般则直接按主线走。",
           "type": "other",
           "placeIds": [
-            "place-mae-sa-waterfall",
-            "place-pong-yaeng"
+            "place-ying-yong-flower-garden"
           ]
         }
       ],
@@ -420,12 +441,13 @@
         {
           "item": "多站包车",
           "currency": "THB",
-          "amount": "以最终报价为准"
+          "amount": "以已订订单为准"
         }
       ],
       "notes": [
-        "包车不是普通Grab：司机按约定等待，并最终把人和行李送到Onsen。",
-        "11月4日Onsen入住日期已固定；写清车型、行李、等待、油费、停车费及超时费。"
+        "11月4日全天多站包车已预订，早上出发、途中可停多站，最后送到Onsen；以上时间是规划估算。",
+        "固定重点是植物园与Maekee绵羊牧场，花园只作为观景段替代，不叠加多个花田。",
+        "本次不安排Kuv Niam绣球花园；11月4日Onsen住宿不变。"
       ]
     },
     {
@@ -926,6 +948,24 @@
       }
     },
     {
+      "id": "place-maekee-sheep-house",
+      "name": "Maekee Sheep House",
+      "nameZh": "Maekee绵羊牧场",
+      "cityOrArea": "蒙占山区 / Mae Rim",
+      "navigation": {
+        "query": "Maekee Sheep House บ้านแกะแม่ขิ, 72 Ban Mae Khi, Mae Raem, Mae Rim, Chiang Mai"
+      }
+    },
+    {
+      "id": "place-ying-yong-flower-garden",
+      "name": "Ying Yong Flower Garden",
+      "nameZh": "Ying Yong季节花园（备选）",
+      "cityOrArea": "蒙占山区 / Mae Rim",
+      "navigation": {
+        "query": "Ying Yong Flower Garden ยิ่งยงสวนดอกไม้, Mae Rim, Chiang Mai"
+      }
+    },
+    {
       "id": "place-mae-sa-waterfall",
       "name": "Mae Sa Waterfall",
       "nameZh": "Mae Sa瀑布",
@@ -1041,7 +1081,7 @@
     {
       "id": "booking-charter",
       "name": "11月4日蒙占山多站包车",
-      "status": "待预约"
+      "status": "已预订｜全天、多站、最终送到Onsen"
     },
     {
       "id": "booking-onsen-transfer",
@@ -1154,8 +1194,8 @@
       },
       {
         "id": "todo-mon-cham-charter",
-        "text": "书面预约11月4日彩鸿酒店→植物园→蒙占山→Onsen多站包车",
-        "completed": false
+        "text": "11月4日全天多站包车已预订：彩鸿酒店出发，植物园＋绵羊牧场，最后送到Onsen",
+        "completed": true
       },
       {
         "id": "todo-onsen-transfer",
@@ -1381,6 +1421,26 @@
         }
       },
       {
+        "id": "place-tha-phae-gate",
+        "name": "Tha Phae Gate",
+        "nameZh": "塔佩门",
+        "countryCode": "TH",
+        "geo": {
+          "lat": 18.7877625,
+          "lng": 98.9932697
+        }
+      },
+      {
+        "id": "place-maekee-sheep-house",
+        "name": "Maekee Sheep House",
+        "nameZh": "Maekee绵羊牧场",
+        "countryCode": "TH",
+        "geo": {
+          "lat": 18.9553449,
+          "lng": 98.8006194
+        }
+      },
+      {
         "id": "place-queen-sirikit-garden",
         "name": "Queen Sirikit Garden",
         "nameZh": "诗丽吉植物园",
@@ -1479,9 +1539,11 @@
         "day": 2,
         "placeIds": [
           "place-bed-changkian",
-          "place-maya",
-          "place-one-nimman",
+          "place-warorot",
+          "place-tha-phae-gate",
+          "place-bed-changkian",
           "place-ang-kaew",
+          "place-one-nimman",
           "place-bed-changkian"
         ]
       },
@@ -1500,6 +1562,7 @@
         "placeIds": [
           "place-bed-changkian",
           "place-queen-sirikit-garden",
+          "place-maekee-sheep-house",
           "place-mon-cham",
           "place-onsen-moncham"
         ]
@@ -1559,9 +1622,11 @@
         "day": 2,
         "placeIds": [
           "place-bed-changkian",
-          "place-maya",
-          "place-one-nimman",
+          "place-warorot",
+          "place-tha-phae-gate",
+          "place-bed-changkian",
           "place-ang-kaew",
+          "place-one-nimman",
           "place-bed-changkian"
         ]
       },
@@ -1580,6 +1645,7 @@
         "placeIds": [
           "place-bed-changkian",
           "place-queen-sirikit-garden",
+          "place-maekee-sheep-house",
           "place-mon-cham",
           "place-onsen-moncham"
         ]
@@ -1638,15 +1704,15 @@
         "templateId": "compact-basin",
         "mapModeReason": "dense-place-cluster",
         "mapModeMetrics": {
-          "placeCount": 21,
-          "geoPlaceCount": 21,
-          "widthKm": 203.76,
-          "heightKm": 583.21,
-          "spanKm": 619.3,
-          "averageNearestKm": 1.99,
+          "placeCount": 23,
+          "geoPlaceCount": 23,
+          "widthKm": 205.97,
+          "heightKm": 585.35,
+          "spanKm": 622.11,
+          "averageNearestKm": 1.93,
           "components": 1,
           "largestLegKm": 586.28,
-          "jumpRatio": 198.1
+          "jumpRatio": 185
         },
         "days": [
           1,
@@ -1694,10 +1760,10 @@
               "place-bed-changkian"
             ],
             "paths": [
-              "M589.35 378.81 C577.2 312.3 584.0 247.7 609.42 189 C608.9 255.3 626.4 316.4 660.79 368.76 C625.3 312.8 607.9 251.7 609.42 189"
+              "M629.58 372.93 C600.5 313.5 589.7 251.0 598.03 189 C613.7 260.5 647.5 322.1 697.36 370.17 C645.5 318.5 611.7 256.9 598.03 189"
             ],
             "overviewPaths": [
-              "M589.35 378.81 C577.2 312.3 584.0 247.7 609.42 189 C608.9 255.3 626.4 316.4 660.79 368.76 C625.3 312.8 607.9 251.7 609.42 189"
+              "M629.58 372.93 C600.5 313.5 589.7 251.0 598.03 189 C613.7 260.5 647.5 322.1 697.36 370.17 C645.5 318.5 611.7 256.9 598.03 189"
             ]
           },
           {
@@ -1705,17 +1771,17 @@
             "color": "#e77e22",
             "placeIds": [
               "place-bed-changkian",
-              "place-maya",
-              "place-one-nimman",
+              "place-warorot",
+              "place-tha-phae-gate",
+              "place-bed-changkian",
               "place-ang-kaew",
+              "place-one-nimman",
               "place-bed-changkian"
             ],
             "paths": [
-              "M609.42 189 C559.3 174.3 509.3 174.3 462.13 189.1 C561.8 162.4 660.7 164.8 753.12 196.1 C720.5 228.2 699.2 266.5 690.4 308.89 C650.9 276.2 623.3 235.5 609.42 189"
+              "M598.03 189 C643.3 202.3 688.5 202.3 731.03 189 C673.9 249.5 605.0 289.6 528.29 307.2 C563.8 274.0 587.5 233.8 598.03 189 C602.1 253.3 588.5 313.6 557.92 366.34 C655.8 329.6 736.0 269.3 793.66 189 C727.1 208.6 660.6 208.6 598.03 189"
             ],
-            "overviewPaths": [
-              "M609.42 189 C657.6 205.8 706.4 208.2 753.12 196.1 C703.6 208.1 654.7 205.6 609.42 189"
-            ]
+            "overviewPaths": []
           },
           {
             "day": 3,
@@ -1728,10 +1794,10 @@
               "place-bed-changkian"
             ],
             "paths": [
-              "M609.42 189 C623.8 229.9 626.1 271.4 615.91 311.19 C648.8 275.7 669.5 234.2 676.72 189 C703.4 183.8 729.4 186.2 753.12 196.1 C705.0 179.3 656.1 176.9 609.42 189"
+              "M598.03 189 C631.8 224.2 653.4 265.8 661.45 311.25 C633.8 278.4 599.4 255.6 560.41 244.21 C634.2 202.1 713.5 183.3 793.66 189 C727.1 169.4 660.6 169.4 598.03 189"
             ],
             "overviewPaths": [
-              "M609.42 189 C632.3 182.3 655.2 182.3 676.72 189 C702.0 199.1 728.0 201.5 753.12 196.1 C703.6 208.1 654.7 205.6 609.42 189"
+              "M598.03 189 C590.8 211.5 578.0 230.3 560.41 244.21 C578.7 229.2 591.5 210.4 598.03 189"
             ]
           },
           {
@@ -1740,14 +1806,15 @@
             "placeIds": [
               "place-bed-changkian",
               "place-queen-sirikit-garden",
+              "place-maekee-sheep-house",
               "place-mon-cham",
               "place-onsen-moncham"
             ],
             "paths": [
-              "M609.42 189 C571.7 228.8 547.7 275.7 538.95 326.93 C584.3 282.4 638.1 253.7 697.2 242.57 C650.6 232.8 605.0 236.5 563.25 253.31"
+              "M598.03 189 C573.6 181.8 549.1 181.8 526.14 189 C608.1 210.4 677.8 252.4 731.06 312.32 C726.9 287.7 716.4 266.1 700.2 248.96 C675.5 257.8 650.3 259.2 626.21 253.19"
             ],
             "overviewPaths": [
-              "M609.42 189 C633.9 216.0 663.8 234.2 697.2 242.57 C652.7 259.6 607.2 263.3 563.25 253.31"
+              "M598.03 189 C630.9 244.2 676.2 286.2 731.06 312.32 C714.2 293.9 703.7 272.3 700.2 248.96 C674.6 243.0 649.5 244.4 626.21 253.19"
             ]
           },
           {
@@ -1759,10 +1826,10 @@
               "place-jasmine-59"
             ],
             "paths": [
-              "M563.25 253.31 C584.7 293.4 593.5 336.0 589.35 378.81 C606.5 534.2 652.4 680.7 724.12 809.57"
+              "M626.21 253.19 C639.3 293.6 640.5 334.3 629.58 372.93 C633.7 530.1 667.0 680.8 727.74 816.21"
             ],
             "overviewPaths": [
-              "M563.25 253.31 C584.7 293.4 593.5 336.0 589.35 378.81 C606.5 534.2 652.4 680.7 724.12 809.57"
+              "M626.21 253.19 C639.3 293.6 640.5 334.3 629.58 372.93 C633.7 530.1 667.0 680.8 727.74 816.21"
             ]
           },
           {
@@ -1774,10 +1841,10 @@
               "place-jasmine-59"
             ],
             "paths": [
-              "M724.12 809.57 C750.4 808.2 774.2 799.9 794.1 785.1 C772.8 800.4 749.0 808.7 724.12 809.57"
+              "M727.74 816.21 C752.3 810.6 773.4 798.7 789.82 781.38 C772.2 799.4 751.1 811.3 727.74 816.21"
             ],
             "overviewPaths": [
-              "M724.12 809.57 C750.4 808.2 774.2 799.9 794.1 785.1 C772.8 800.4 749.0 808.7 724.12 809.57"
+              "M727.74 816.21 C752.3 810.6 773.4 798.7 789.82 781.38 C772.2 799.4 751.1 811.3 727.74 816.21"
             ]
           },
           {
@@ -1790,7 +1857,7 @@
               "place-jasmine-59"
             ],
             "paths": [
-              "M724.12 809.57 C771.4 786.2 821.2 777.5 870.72 783.98 C833.4 801.5 803.8 827.6 783.6 861 C758.2 849.5 738.0 832.0 724.12 809.57"
+              "M727.74 816.21 C770.8 792.8 816.8 783.0 863.03 787.28 C832.1 803.2 808.0 826.2 792.07 854.88 C766.3 848.2 744.5 835.0 727.74 816.21"
             ],
             "overviewPaths": []
           },
@@ -1803,10 +1870,10 @@
               "place-jasmine-59"
             ],
             "paths": [
-              "M724.12 809.57 C750.4 808.2 774.2 799.9 794.1 785.1 C772.8 800.4 749.0 808.7 724.12 809.57"
+              "M727.74 816.21 C752.3 810.6 773.4 798.7 789.82 781.38 C772.2 799.4 751.1 811.3 727.74 816.21"
             ],
             "overviewPaths": [
-              "M724.12 809.57 C750.4 808.2 774.2 799.9 794.1 785.1 C772.8 800.4 749.0 808.7 724.12 809.57"
+              "M727.74 816.21 C752.3 810.6 773.4 798.7 789.82 781.38 C772.2 799.4 751.1 811.3 727.74 816.21"
             ]
           },
           {
@@ -1817,21 +1884,21 @@
               "place-bkk"
             ],
             "paths": [
-              "M724.12 809.57 C775.7 813.4 822.2 830.9 860.77 861"
+              "M727.74 816.21 C778.8 817.7 825.4 833.0 864.83 861"
             ],
             "overviewPaths": [
-              "M724.12 809.57 C775.7 813.4 822.2 830.9 860.77 861"
+              "M727.74 816.21 C778.8 817.7 825.4 833.0 864.83 861"
             ]
           }
         ],
         "places": [
           {
             "id": "place-cnx",
-            "x": 589.35,
-            "y": 378.81,
+            "x": 629.58,
+            "y": 372.93,
             "color": "#397dc1",
-            "tx": 621.35,
-            "ty": 428.81,
+            "tx": 661.58,
+            "ty": 422.93,
             "size": 24,
             "anchor": "start",
             "lines": [
@@ -1850,10 +1917,10 @@
           },
           {
             "id": "place-bed-changkian",
-            "x": 609.42,
+            "x": 598.03,
             "y": 189,
             "color": "#397dc1",
-            "tx": 687.42,
+            "tx": 676.03,
             "ty": 127,
             "size": 24,
             "anchor": "start",
@@ -1875,13 +1942,13 @@
           },
           {
             "id": "place-sunday-walking-street",
-            "x": 660.79,
-            "y": 368.76,
+            "x": 697.36,
+            "y": 370.17,
             "color": "#397dc1",
-            "tx": 582.79,
-            "ty": 444.76,
+            "tx": 775.36,
+            "ty": 308.17,
             "size": 24,
-            "anchor": "end",
+            "anchor": "start",
             "lines": [
               "Sunday Walking Street /",
               "周日步行夜市"
@@ -1897,11 +1964,11 @@
           },
           {
             "id": "place-maya",
-            "x": 462.13,
-            "y": 189.1,
-            "color": "#e77e22",
-            "tx": 430.13,
-            "ty": 157.1,
+            "x": 457.76,
+            "y": 189,
+            "color": "#397dc1",
+            "tx": 425.76,
+            "ty": 157,
             "size": 24,
             "anchor": "end",
             "lines": [
@@ -1912,17 +1979,15 @@
               "lat": 18.8024324,
               "lng": 98.967298
             },
-            "days": [
-              2
-            ]
+            "days": []
           },
           {
             "id": "place-one-nimman",
-            "x": 753.12,
-            "y": 196.1,
+            "x": 793.66,
+            "y": 189,
             "color": "#e77e22",
-            "tx": 891.12,
-            "ty": 298.1,
+            "tx": 931.66,
+            "ty": 101,
             "size": 24,
             "anchor": "start",
             "lines": [
@@ -1940,13 +2005,13 @@
           },
           {
             "id": "place-ang-kaew",
-            "x": 690.4,
-            "y": 308.89,
+            "x": 557.92,
+            "y": 366.34,
             "color": "#e77e22",
-            "tx": 828.4,
-            "ty": 220.89,
+            "tx": 419.92,
+            "ty": 468.34,
             "size": 24,
-            "anchor": "start",
+            "anchor": "end",
             "lines": [
               "Ang Kaew Reservoir /",
               "Ang Kaew水库"
@@ -1962,13 +2027,13 @@
           },
           {
             "id": "place-wat-pha-lat",
-            "x": 615.91,
-            "y": 311.19,
+            "x": 661.45,
+            "y": 311.25,
             "color": "#618344",
-            "tx": 537.91,
-            "ty": 249.19,
+            "tx": 739.45,
+            "ty": 249.25,
             "size": 24,
-            "anchor": "end",
+            "anchor": "start",
             "lines": [
               "Wat Pha Lat /",
               "帕拉特寺"
@@ -1984,11 +2049,11 @@
           },
           {
             "id": "place-doi-suthep",
-            "x": 676.72,
-            "y": 189,
+            "x": 560.41,
+            "y": 244.21,
             "color": "#618344",
-            "tx": 598.72,
-            "ty": 127,
+            "tx": 528.41,
+            "ty": 294.21,
             "size": 24,
             "anchor": "end",
             "lines": [
@@ -2006,11 +2071,11 @@
           },
           {
             "id": "place-baan-kang-wat",
-            "x": 738.45,
-            "y": 348.81,
+            "x": 767.31,
+            "y": 244.37,
             "color": "#397dc1",
-            "tx": 876.45,
-            "ty": 450.81,
+            "tx": 845.31,
+            "ty": 182.37,
             "size": 24,
             "anchor": "start",
             "lines": [
@@ -2025,11 +2090,11 @@
           },
           {
             "id": "place-wat-umong",
-            "x": 495.14,
-            "y": 256.54,
+            "x": 488.33,
+            "y": 248.63,
             "color": "#397dc1",
-            "tx": 417.14,
-            "ty": 332.54,
+            "tx": 350.33,
+            "ty": 350.63,
             "size": 24,
             "anchor": "end",
             "lines": [
@@ -2045,13 +2110,13 @@
           },
           {
             "id": "place-wat-chedi-luang",
-            "x": 637.59,
-            "y": 242.88,
+            "x": 601.04,
+            "y": 311.18,
             "color": "#397dc1",
-            "tx": 775.59,
-            "ty": 154.88,
+            "tx": 569.04,
+            "ty": 361.18,
             "size": 24,
-            "anchor": "start",
+            "anchor": "end",
             "lines": [
               "Wat Chedi Luang /",
               "契迪龙寺"
@@ -2065,13 +2130,13 @@
           },
           {
             "id": "place-three-kings",
-            "x": 538.36,
+            "x": 653.91,
             "y": 189,
             "color": "#397dc1",
-            "tx": 616.36,
+            "tx": 575.91,
             "ty": 127,
             "size": 24,
-            "anchor": "start",
+            "anchor": "end",
             "lines": [
               "Three Kings Monument /",
               "三王纪念碑"
@@ -2085,13 +2150,13 @@
           },
           {
             "id": "place-warorot",
-            "x": 769,
-            "y": 274.89,
-            "color": "#397dc1",
-            "tx": 907,
-            "ty": 376.89,
+            "x": 731.03,
+            "y": 189,
+            "color": "#e77e22",
+            "tx": 653.03,
+            "ty": 127,
             "size": 24,
-            "anchor": "start",
+            "anchor": "end",
             "lines": [
               "Warorot Market /",
               "瓦洛洛市场"
@@ -2101,17 +2166,63 @@
               "lat": 18.7902357,
               "lng": 99.000535
             },
-            "days": []
+            "days": [
+              2
+            ]
+          },
+          {
+            "id": "place-tha-phae-gate",
+            "x": 528.29,
+            "y": 307.2,
+            "color": "#e77e22",
+            "tx": 390.29,
+            "ty": 219.2,
+            "size": 24,
+            "anchor": "end",
+            "lines": [
+              "Tha Phae Gate /",
+              "塔佩门"
+            ],
+            "query": "Tha Phae Gate 泰国",
+            "geo": {
+              "lat": 18.7877625,
+              "lng": 98.9932697
+            },
+            "days": [
+              2
+            ]
+          },
+          {
+            "id": "place-maekee-sheep-house",
+            "x": 731.06,
+            "y": 312.32,
+            "color": "#209aaa",
+            "tx": 763.06,
+            "ty": 362.32,
+            "size": 24,
+            "anchor": "start",
+            "lines": [
+              "Maekee Sheep House /",
+              "Maekee绵羊牧场"
+            ],
+            "query": "Maekee Sheep House 泰国",
+            "geo": {
+              "lat": 18.9553449,
+              "lng": 98.8006194
+            },
+            "days": [
+              4
+            ]
           },
           {
             "id": "place-queen-sirikit-garden",
-            "x": 538.95,
-            "y": 326.93,
+            "x": 526.14,
+            "y": 189,
             "color": "#209aaa",
-            "tx": 400.95,
-            "ty": 428.93,
+            "tx": 664.14,
+            "ty": 101,
             "size": 24,
-            "anchor": "end",
+            "anchor": "start",
             "lines": [
               "Queen Sirikit Garden /",
               "诗丽吉植物园"
@@ -2127,11 +2238,11 @@
           },
           {
             "id": "place-mon-cham",
-            "x": 697.2,
-            "y": 242.57,
+            "x": 700.2,
+            "y": 248.96,
             "color": "#209aaa",
-            "tx": 729.2,
-            "ty": 292.57,
+            "tx": 778.2,
+            "ty": 186.96,
             "size": 24,
             "anchor": "start",
             "lines": [
@@ -2149,13 +2260,13 @@
           },
           {
             "id": "place-onsen-moncham",
-            "x": 563.25,
-            "y": 253.31,
+            "x": 626.21,
+            "y": 253.19,
             "color": "#209aaa",
-            "tx": 485.25,
-            "ty": 329.31,
+            "tx": 764.21,
+            "ty": 355.19,
             "size": 24,
-            "anchor": "end",
+            "anchor": "start",
             "lines": [
               "Onsen at Moncham"
             ],
@@ -2171,11 +2282,11 @@
           },
           {
             "id": "place-bkk",
-            "x": 860.77,
+            "x": 864.83,
             "y": 861,
             "color": "#618344",
-            "tx": 998.77,
-            "ty": 773,
+            "tx": 896.83,
+            "ty": 829,
             "size": 24,
             "anchor": "start",
             "lines": [
@@ -2193,13 +2304,13 @@
           },
           {
             "id": "place-jasmine-59",
-            "x": 724.12,
-            "y": 809.57,
+            "x": 727.74,
+            "y": 816.21,
             "color": "#8865a5",
-            "tx": 862.12,
-            "ty": 911.57,
+            "tx": 695.74,
+            "ty": 784.21,
             "size": 24,
-            "anchor": "start",
+            "anchor": "end",
             "lines": [
               "Jasmine 59 Hotel /",
               "Jasmine 59"
@@ -2219,11 +2330,11 @@
           },
           {
             "id": "place-grand-palace",
-            "x": 870.72,
-            "y": 783.98,
+            "x": 863.03,
+            "y": 787.28,
             "color": "#397dc1",
-            "tx": 902.72,
-            "ty": 833.98,
+            "tx": 941.03,
+            "ty": 725.28,
             "size": 24,
             "anchor": "start",
             "lines": [
@@ -2241,11 +2352,11 @@
           },
           {
             "id": "place-wat-arun",
-            "x": 783.6,
-            "y": 861,
+            "x": 792.07,
+            "y": 854.88,
             "color": "#397dc1",
-            "tx": 751.6,
-            "ty": 911,
+            "tx": 714.07,
+            "ty": 930.88,
             "size": 24,
             "anchor": "end",
             "lines": [
@@ -2263,11 +2374,11 @@
           },
           {
             "id": "place-em-district",
-            "x": 794.1,
-            "y": 785.1,
+            "x": 789.82,
+            "y": 781.38,
             "color": "#df6185",
-            "tx": 716.1,
-            "ty": 723.1,
+            "tx": 651.82,
+            "ty": 693.38,
             "size": 24,
             "anchor": "end",
             "lines": [
@@ -2288,8 +2399,8 @@
           "place-cnx",
           "place-bed-changkian",
           "place-sunday-walking-street",
-          "place-one-nimman",
           "place-doi-suthep",
+          "place-maekee-sheep-house",
           "place-mon-cham",
           "place-onsen-moncham",
           "place-jasmine-59",
@@ -2305,88 +2416,104 @@
             ],
             "labels": {
               "place-cnx": {
-                "x": 621.35,
-                "y": 428.81,
+                "x": 661.58,
+                "y": 422.93,
                 "anchor": "start"
               },
               "place-bed-changkian": {
-                "x": 687.42,
+                "x": 676.03,
                 "y": 127,
                 "anchor": "start"
               },
               "place-sunday-walking-street": {
-                "x": 582.79,
-                "y": 444.76,
-                "anchor": "end"
+                "x": 775.36,
+                "y": 308.17,
+                "anchor": "start"
               }
             },
             "transport": [
               {
                 "items": [],
-                "x": 599.38,
-                "y": 283.9
+                "x": 613.81,
+                "y": 280.97
               },
               {
                 "items": [],
-                "x": 635.11,
-                "y": 278.88
+                "x": 647.69,
+                "y": 279.59
               },
               {
                 "items": [],
-                "x": 635.11,
-                "y": 278.88
+                "x": 647.69,
+                "y": 279.59
               }
             ]
           },
           "2": {
             "places": [
               "place-bed-changkian",
-              "place-maya",
-              "place-one-nimman",
-              "place-ang-kaew"
+              "place-warorot",
+              "place-tha-phae-gate",
+              "place-ang-kaew",
+              "place-one-nimman"
             ],
             "labels": {
               "place-bed-changkian": {
-                "x": 687.42,
+                "x": 676.03,
                 "y": 127,
                 "anchor": "start"
               },
-              "place-maya": {
-                "x": 430.13,
-                "y": 157.1,
+              "place-warorot": {
+                "x": 653.03,
+                "y": 127,
+                "anchor": "end"
+              },
+              "place-tha-phae-gate": {
+                "x": 390.29,
+                "y": 219.2,
+                "anchor": "end"
+              },
+              "place-ang-kaew": {
+                "x": 419.92,
+                "y": 468.34,
                 "anchor": "end"
               },
               "place-one-nimman": {
-                "x": 891.12,
-                "y": 298.1,
-                "anchor": "start"
-              },
-              "place-ang-kaew": {
-                "x": 828.4,
-                "y": 220.89,
+                "x": 931.66,
+                "y": 101,
                 "anchor": "start"
               }
             },
             "transport": [
               {
                 "items": [],
-                "x": 535.77,
-                "y": 189.05
+                "x": 664.53,
+                "y": 189
               },
               {
                 "items": [],
-                "x": 607.63,
-                "y": 192.6
+                "x": 629.66,
+                "y": 248.1
               },
               {
                 "items": [],
-                "x": 721.76,
-                "y": 252.5
+                "x": 563.16,
+                "y": 248.1
               },
               {
                 "items": [],
-                "x": 649.91,
-                "y": 248.94
+                "x": 577.97,
+                "y": 277.67
+              },
+              {
+                "items": [],
+                "x": 675.79,
+                "y": 277.67
+              },
+              {
+                "items": [],
+                "x": 695.85,
+                "y": 189
               }
             ]
           },
@@ -2399,46 +2526,46 @@
             ],
             "labels": {
               "place-bed-changkian": {
-                "x": 687.42,
+                "x": 676.03,
                 "y": 127,
                 "anchor": "start"
               },
               "place-wat-pha-lat": {
-                "x": 537.91,
-                "y": 249.19,
-                "anchor": "end"
+                "x": 739.45,
+                "y": 249.25,
+                "anchor": "start"
               },
               "place-doi-suthep": {
-                "x": 598.72,
-                "y": 127,
+                "x": 528.41,
+                "y": 294.21,
                 "anchor": "end"
               },
               "place-one-nimman": {
-                "x": 891.12,
-                "y": 298.1,
+                "x": 931.66,
+                "y": 101,
                 "anchor": "start"
               }
             },
             "transport": [
               {
                 "items": [],
-                "x": 612.66,
-                "y": 250.09
+                "x": 629.74,
+                "y": 250.13
               },
               {
                 "items": [],
-                "x": 646.32,
-                "y": 250.09
+                "x": 610.93,
+                "y": 277.73
               },
               {
                 "items": [],
-                "x": 714.92,
-                "y": 192.55
+                "x": 677.03,
+                "y": 216.61
               },
               {
                 "items": [],
-                "x": 681.27,
-                "y": 192.55
+                "x": 695.85,
+                "y": 189
               }
             ]
           },
@@ -2446,46 +2573,57 @@
             "places": [
               "place-bed-changkian",
               "place-queen-sirikit-garden",
+              "place-maekee-sheep-house",
               "place-mon-cham",
               "place-onsen-moncham"
             ],
             "labels": {
               "place-bed-changkian": {
-                "x": 687.42,
+                "x": 676.03,
                 "y": 127,
                 "anchor": "start"
               },
               "place-queen-sirikit-garden": {
-                "x": 400.95,
-                "y": 428.93,
-                "anchor": "end"
+                "x": 664.14,
+                "y": 101,
+                "anchor": "start"
+              },
+              "place-maekee-sheep-house": {
+                "x": 763.06,
+                "y": 362.32,
+                "anchor": "start"
               },
               "place-mon-cham": {
-                "x": 729.2,
-                "y": 292.57,
+                "x": 778.2,
+                "y": 186.96,
                 "anchor": "start"
               },
               "place-onsen-moncham": {
-                "x": 485.25,
-                "y": 329.31,
-                "anchor": "end"
+                "x": 764.21,
+                "y": 355.19,
+                "anchor": "start"
               }
             },
             "transport": [
               {
                 "items": [],
-                "x": 574.18,
-                "y": 257.97
+                "x": 562.09,
+                "y": 189
               },
               {
                 "items": [],
-                "x": 618.08,
-                "y": 284.75
+                "x": 628.6,
+                "y": 250.66
               },
               {
                 "items": [],
-                "x": 630.23,
-                "y": 247.94
+                "x": 715.63,
+                "y": 280.64
+              },
+              {
+                "items": [],
+                "x": 663.21,
+                "y": 251.07
               }
             ]
           },
@@ -2497,31 +2635,31 @@
             ],
             "labels": {
               "place-onsen-moncham": {
-                "x": 485.25,
-                "y": 329.31,
-                "anchor": "end"
+                "x": 764.21,
+                "y": 355.19,
+                "anchor": "start"
               },
               "place-cnx": {
-                "x": 621.35,
-                "y": 428.81,
+                "x": 661.58,
+                "y": 422.93,
                 "anchor": "start"
               },
               "place-jasmine-59": {
-                "x": 862.12,
-                "y": 911.57,
-                "anchor": "start"
+                "x": 695.74,
+                "y": 784.21,
+                "anchor": "end"
               }
             },
             "transport": [
               {
                 "items": [],
-                "x": 576.3,
-                "y": 316.06
+                "x": 627.89,
+                "y": 313.06
               },
               {
                 "items": [],
-                "x": 656.74,
-                "y": 594.19
+                "x": 678.66,
+                "y": 594.57
               }
             ]
           },
@@ -2532,26 +2670,26 @@
             ],
             "labels": {
               "place-jasmine-59": {
-                "x": 862.12,
-                "y": 911.57,
-                "anchor": "start"
+                "x": 695.74,
+                "y": 784.21,
+                "anchor": "end"
               },
               "place-em-district": {
-                "x": 716.1,
-                "y": 723.1,
+                "x": 651.82,
+                "y": 693.38,
                 "anchor": "end"
               }
             },
             "transport": [
               {
                 "items": [],
-                "x": 759.11,
-                "y": 797.34
+                "x": 758.78,
+                "y": 798.8
               },
               {
                 "items": [],
-                "x": 759.11,
-                "y": 797.34
+                "x": 758.78,
+                "y": 798.8
               }
             ]
           },
@@ -2563,36 +2701,36 @@
             ],
             "labels": {
               "place-jasmine-59": {
-                "x": 862.12,
-                "y": 911.57,
-                "anchor": "start"
+                "x": 695.74,
+                "y": 784.21,
+                "anchor": "end"
               },
               "place-grand-palace": {
-                "x": 902.72,
-                "y": 833.98,
+                "x": 941.03,
+                "y": 725.28,
                 "anchor": "start"
               },
               "place-wat-arun": {
-                "x": 751.6,
-                "y": 911,
+                "x": 714.07,
+                "y": 930.88,
                 "anchor": "end"
               }
             },
             "transport": [
               {
                 "items": [],
-                "x": 797.42,
-                "y": 796.78
+                "x": 795.38,
+                "y": 801.75
               },
               {
                 "items": [],
-                "x": 827.16,
-                "y": 822.49
+                "x": 827.55,
+                "y": 821.08
               },
               {
                 "items": [],
-                "x": 753.86,
-                "y": 835.29
+                "x": 759.9,
+                "y": 835.55
               }
             ]
           },
@@ -2603,26 +2741,26 @@
             ],
             "labels": {
               "place-jasmine-59": {
-                "x": 862.12,
-                "y": 911.57,
-                "anchor": "start"
+                "x": 695.74,
+                "y": 784.21,
+                "anchor": "end"
               },
               "place-em-district": {
-                "x": 716.1,
-                "y": 723.1,
+                "x": 651.82,
+                "y": 693.38,
                 "anchor": "end"
               }
             },
             "transport": [
               {
                 "items": [],
-                "x": 759.11,
-                "y": 797.34
+                "x": 758.78,
+                "y": 798.8
               },
               {
                 "items": [],
-                "x": 759.11,
-                "y": 797.34
+                "x": 758.78,
+                "y": 798.8
               }
             ]
           },
@@ -2633,21 +2771,21 @@
             ],
             "labels": {
               "place-jasmine-59": {
-                "x": 862.12,
-                "y": 911.57,
-                "anchor": "start"
+                "x": 695.74,
+                "y": 784.21,
+                "anchor": "end"
               },
               "place-bkk": {
-                "x": 998.77,
-                "y": 773,
+                "x": 896.83,
+                "y": 829,
                 "anchor": "start"
               }
             },
             "transport": [
               {
                 "items": [],
-                "x": 792.44,
-                "y": 835.29
+                "x": 796.29,
+                "y": 838.61
               }
             ]
           }
